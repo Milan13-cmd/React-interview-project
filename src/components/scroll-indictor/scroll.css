@@ -1,0 +1,36 @@
+/* body{
+  position: relative;
+} */
+
+.top-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: cadetblue;
+}
+
+.scroll-progress-tracker {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background-color: rgb(245, 245, 245);
+}
+
+.current-progress-bar {
+  height: 10px;
+  width: 100%;
+  background-color: rgb(162, 155, 155);
+}
+
+.data-container{
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+}
+  

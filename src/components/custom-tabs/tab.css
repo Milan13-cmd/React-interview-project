@@ -1,0 +1,31 @@
+.wrapper{
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.heading{
+  display: flex;
+  gap: 20px;
+}
+
+.label{
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+.content{
+  margin-top: 20px;
+}
+
+.tab-item{
+  color: rgb(53, 49, 49);
+}
+
+.tab-item.active{
+  color: blue;
+}
+
+
